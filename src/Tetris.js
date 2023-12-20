@@ -1,4 +1,4 @@
-import "Tetris.css"
+import "./Tetris.css"
 function Tetris () { 
     return (
         <div className="blackBackground">

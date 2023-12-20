@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Tetris from './tetris';
+import Tetris from './Tetris';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
