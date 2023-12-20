@@ -1,0 +1,73 @@
+.blackBackground {
+    background-color: black;
+    border: 3px solid black;
+}
+
+.blueContainer {
+    display: flex;
+    flex: row wrap;
+}
+.box {
+    height: 50px;
+    width: 50px;
+    box-shadow: 0px 0px 10px rgb(102, 102, 102) inset;
+    flex-direction: row-reverse;
+}
+.cyan {
+    background-color: cyan;
+}
+.green {
+    background-color: rgb(68, 235, 68);
+}
+.yellow {
+    background-color: yellow;
+}
+.purple {
+    background-color: rgb(179, 118, 222); 
+}
+.black {
+    background-color: black;
+}
+
+.darkblueContainer {
+    display: flex;
+    flex: row wrap;
+}
+.boxdarkblue {
+    height: 50px;
+    width: 50px;
+    box-shadow: 0px 0px 10px rgb(102, 102, 102) inset;
+    flex-direction: row;
+}
+.orange {
+    background-color: orange;
+}
+.black {
+    background-color: black;
+}
+.green {
+    background-color: rgb(68, 235, 68);
+}
+.red {
+    background-color: red;
+}
+.purple {
+    background-color: rgb(179, 118, 222);
+}
+.black {
+    background-color: black;
+}    
+
+.darkblueContainer {
+    display: flex;
+    flex: row wrap;
+}
+.darkblue {
+    height: 50px;
+    width: 50px;
+    box-shadow: 0px 0px 10px rgb(102, 102, 102) inset;
+    flex-direction: row;
+}
+.darkblue {
+    background-color: rgb(32, 32, 252);
+}
