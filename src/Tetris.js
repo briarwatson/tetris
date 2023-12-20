@@ -4,32 +4,34 @@ function Tetris () {
         <div className="blackBackground">
 
 <body>
-    <div class="darkblueContainer">
-        <div class="box darkblue"></div>
-        <div class="box darkblue"></div>
-        <div class="box orange"></div>
-        <div class="box black"></div>
-        <div class="box green"></div>
-        <div class="box green"></div>
-        <div class="box red"></div>
-        <div class="box red"></div>
-        <div class="box purple"></div>
-        <div class="box black"></div>
+    <div className="darkblueContainer">
+        <div className="box darkblue"></div>
+        <div className="box darkblue"></div>
+        <div className="box orange"></div>
+        <div className="box black"></div>
+        <div className="box green"></div>
+        <div className="box green"></div>
+        <div className="box red"></div>
+        <div className="box red"></div>
+        <div className="box purple"></div>
+        <div className="box black"></div>
 
     </div>
-    <div class="darkblueContainer">
-        <div class="box darkblue"></div>
-        <div class="box darkblue"></div>
-        <div class="box orange"></div>
-        <div class="box orange"></div>
-        <div class="box orange"></div>
-        <div class="box green"></div>
-        <div class="box black"></div>
-        <div class="box red"></div>
-        <div class="box red"></div>
-        <div class="box orange"></div>
+    <div className="darkblueContainer">
+        <div className="box darkblue"></div>
+        <div className="box darkblue"></div>
+        <div className="box orange"></div>
+        <div className="box orange"></div>
+        <div className="box orange"></div>
+        <div className="box green"></div>
+        <div className="box black"></div>
+        <div className="box red"></div>
+        <div className="box red"></div>
+        <div className="box orange"></div>
     </div>
 </body>
         </div>
     )
 }
+
+export default Tetris
