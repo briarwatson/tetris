@@ -2,9 +2,10 @@
     background-color: black;
     border: 3px solid black;
     height: 800px;
-    width: 34.5%;
+    width: 499px;
     display: flex;
     align-items: flex-end;
+    flex-wrap: wrap;
 }
 
 .blueContainer {
@@ -61,6 +62,11 @@
 .black {
     background-color: black;
 }    
+.darkblueContainertwo {
+    display: flex;
+    flex: row wrap;
+    position: absolute;
+}
 
 .darkblueContainer {
     display: flex;
@@ -74,4 +80,18 @@
 }
 .darkblue {
     background-color: rgb(32, 32, 252);
+}
+.startContainer {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    padding-top: 260px;
+    
+}
+.start {
+    display: flex;
+    background-color: aquamarine;
+    height: 50px;
+    width: 50px;
+    
 }
