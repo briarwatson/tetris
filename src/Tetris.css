@@ -83,15 +83,23 @@
 }
 .startContainer {
     display: flex;
-    text-align: center;
     margin: auto;
     padding-top: 260px;
     
 }
 .start {
-    display: flex;
-    background-color: aquamarine;
-    height: 50px;
-    width: 50px;
+    background-color: rgb(163, 213, 139);
+    font-family: "Rubik Doodle Shadow";
+    color: rgb(147, 29, 121);
+    height: 70px;
+    width: 300px;
+    font-size: 50px;
+    text-align: center;
     
+}
+h1 {
+    font-size: 50px;
+    color: blueviolet;
+    font-family: "Rubik Doodle Shadow";
+    z-index: -1;
 }

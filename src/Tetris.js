@@ -32,27 +32,30 @@ function Tetris () {
     
     return (
         <div className="blackBackground">
-
-<div className="darkblueContainertwo" style={{ top: `${position * 30}px`}}>
-        <div className="box darkblue"></div>
-        <div className="box darkblue"></div>
-        <div className="box orange"></div>
-        <div className="box black"></div>
-        <div className="box green"></div>
-        <div className="box green"></div>
-        <div className="box red"></div>
-        <div className="box red"></div>
-        <div className="box purple"></div>
-        <div className="box black"></div>
-    </div>
+        {position < 22 && (
+        <div className="darkblueContainertwo" style={{ top: `${position * 30}px`}}>
+            <div className="box darkblue"></div>
+            <div className="box darkblue"></div>
+            <div className="box orange"></div>
+            <div className="box black"></div>
+            <div className="box green"></div>
+            <div className="box green"></div>
+            <div className="box red"></div>
+            <div className="box red"></div>
+            <div className="box purple"></div>
+            <div className="box black"></div>
+        </div>
+        )}
     {/* When isRunning is not true, render the start button */}
     {!isRunning && 
-    <div class="startContainer">
+    <div class="startContainer"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap" />
         <button onClick={handleClick} class="start">Start</button>
     </div>  
     }  
     
     <div>
+        {position < 22 ? 
     <div className="darkblueContainer">
         <div className="box darkblue"></div>
         <div className="box darkblue"></div>
@@ -64,9 +67,12 @@ function Tetris () {
         <div className="box red"></div>
         <div className="box purple"></div>
         <div className="box black"></div>
-
     </div>
-    
+        :
+    <div>
+        <h1>You have completed LEVEL 1 </h1>
+    </div>
+        } 
     <div className="darkblueContainer">
         <div className="box darkblue"></div>
         <div className="box darkblue"></div>
