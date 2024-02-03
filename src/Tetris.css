@@ -6,31 +6,48 @@
     display: flex;
     align-items: flex-end;
     flex-wrap: wrap;
+    z-index: -1;
 }
 
-.blueContainer {
+.grid {
     display: flex;
-    flex: row wrap;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.row {
+    display: flex;
 }
 .box {
     height: 50px;
     width: 50px;
     box-shadow: 0px 0px 10px rgb(102, 102, 102) inset;
     flex-direction: row-reverse;
+    z-index: 10;
 }
-.cyan {
+
+.empty {
+    background-color: black;
+}
+
+.blueContainer {
+    display: flex;
+    flex: row wrap;
+}
+.box.cyan {
     background-color: cyan;
 }
-.green {
+.box.green {
     background-color: rgb(68, 235, 68);
 }
-.yellow {
+.box.yellow {
     background-color: yellow;
 }
-.purple {
+.box.purple {
     background-color: rgb(179, 118, 222); 
 }
-.black {
+.box.black {
     background-color: black;
 }
 
@@ -44,22 +61,25 @@
     box-shadow: 0px 0px 10px rgb(102, 102, 102) inset;
     flex-direction: row;
 }
-.orange {
+.box.blue {
+    background-color: rgb(32, 32, 252);;
+}
+.box.orange {
     background-color: orange;
 }
-.black {
+.box.black {
     background-color: black;
 }
-.green {
+.box.green {
     background-color: rgb(68, 235, 68);
 }
-.red {
+.box.red {
     background-color: red;
 }
-.purple {
+.box.purple {
     background-color: rgb(179, 118, 222);
 }
-.black {
+.box.black {
     background-color: black;
 }    
 .darkblueContainertwo {
@@ -78,7 +98,7 @@
     box-shadow: 0px 0px 10px rgb(102, 102, 102) inset;
     flex-direction: row;
 }
-.darkblue {
+.box.darkblue {
     background-color: rgb(32, 32, 252);
 }
 .startContainer {
